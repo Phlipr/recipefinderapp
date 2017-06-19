@@ -8,6 +8,6 @@ class Recipe
   format :json
 
   def self.for term
-    get("search", query: {q: term})["recipes"]
+    get("/search", query: {q: term})["recipes"]
   end
 end
