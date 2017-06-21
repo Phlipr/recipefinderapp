@@ -86,6 +86,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.0-x86-mingw32)
       mini_portile2 (~> 2.2.0)
+    pg (0.21.0-x86-mingw32)
     phantomjs (1.9.8.0)
     poltergeist (1.6.0)
       capybara (~> 2.1)
@@ -174,6 +175,7 @@ DEPENDENCIES
   httparty
   jbuilder (~> 2.5)
   jquery-rails
+  pg
   phantomjs (~> 1.9.8.0)
   poltergeist (~> 1.6.0)
   puma (~> 3.0)
