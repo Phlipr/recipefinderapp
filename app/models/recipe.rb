@@ -3,7 +3,7 @@ class Recipe
 
   key_value = ENV['FOOD2FORK_KEY']
   hostport = ENV['FOOD2FORK_SERVER_AND_PORT'] || 'www.food2fork.com'
-  base_uri "http://#{hostport}/api/search"
+  base_uri "https://#{hostport}/api/search"
   default_params key: key_value
   format :json
 
